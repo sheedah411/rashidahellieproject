@@ -2,47 +2,54 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=, initial-scale=1.0" />
-    <title>Awesome weather App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Awesome Weather App</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="Weather-app"></div>
-    <form id="search-form">
-      <input
-        type="search"
-        id="search-input"
-        placeholder="Enter a city"
-        required
-      />
-      <button type="submit">search</button>
-    </form>
-    <header>
-      <h1 id="city">Kampala</h1>
-      <p>
-        <span id="date">Saturday 10:00</span>
-        <span id="description">clear sky</span>
-      </p>
-      <p>
-        Humidity: <strong id="humidity">60</strong>%
-      Wind: <strong id="wind">5</strong> km/h </p>
-      </p>
-    </header>
-<div class="current-temperature">
-  <img id="icon"  src="" alt="weather icon"/>
-  <span id="temperature">24</span>
-  <span class="unit">°C </span>
-</div>
-<div id="forecast"></div>
-<footer>
-<p>
-<a href="https://github.com/sheedah411/rashidahellieproject" target="_blank">Open-source on GitHub</a>by Namusisi,
-
-
-</p>
-
-</footer>
-</div>
-<script src="script.js"></script>
+    <div class="Weather-app">
+      <form id="search-form">
+        <input
+          type="search"
+          id="search-input"
+          placeholder="Enter a city"
+          required
+        />
+        <button type="submit">search</button>
+      </form>
+      <header>
+        <h1 id="city">Kampala</h1>
+        <p>
+          <span id="date">Saturday 10:00</span>
+          <span id="description">clear sky</span>
+        </p>
+        <p>
+          Humidity: <strong id="humidity">60</strong>% Wind:
+          <strong id="wind">5</strong> km/h
+        </p>
+      </header>
+      <div class="current-temperature">
+        <img id="icon" src="" alt="weather icon" />
+        <span id="temperature">24</span>
+        <span class="unit">°C </span>
+      </div>
+      <div id="forecast"></div>
+      <footer>
+        <p>
+          <a
+            href="https://github.com/sheedah411/rashidahellieproject"
+            target="_blank"
+            >Open-source on GitHub</a
+          >
+          by Namusisi,
+          <a
+            href="https://rashidah-awesome-weather-app.netlify.app/"
+            target="_blank"
+            >hosted on Netlify</a
+          >
+        </p>
+      </footer>
+    </div>
+    <script src="script.js"></script>
   </body>
 </html>
